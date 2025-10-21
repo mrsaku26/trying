@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
+import Navbar from '../../Components/Navbar/Navbar.jsx'
  import Header from '../../Components/Header/Header'
 import Bloglist from '../../Components/Bloglist/Bloglist'
 import NewsLetter from '../../Components/NewsLetter/NewsLetter'

@@ -6,15 +6,16 @@ import { useAppContext } from '../../context/AppContext'
 
 const Navbar = () => {
 
-  const {navigate,token} = useAppContext()
+  const {token} = useAppContext()
+  const navigate = useNavigate()
 
   return (
     <div className='navbar'>
       <img onClick={()=>navigate('/')}
       src={assets.logo} alt="" className='logo'/>  
-      <button onClick={()=>navigate('/admin')}
+      <button type='button' onClick={()=>navigate('/admin')}
        className='login'>
-        {token? 'Dashboard' :"Login"}
+        {token? 'Dashboard' :"Logi"}
         <img src={assets.arrow} alt="" />
       </button>
     </div>
