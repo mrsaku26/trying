@@ -15,7 +15,7 @@ const Navbar = () => {
       src={assets.logo} alt="" className='logo'/>  
       <button type='button' onClick={()=>navigate('/admin')}
        className='login'>
-        {token? 'Dashboard' :"Logi"}
+        {token? 'Dashboard' :"Login"}
         <img src={assets.arrow} alt="" />
       </button>
     </div>
