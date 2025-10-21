@@ -6,6 +6,7 @@
    position: relative;
    top: -89vh;
    opacity: 0.3;
+   pointer-events: none;
 }
 .header-mid{
    display: flex;
@@ -46,18 +47,18 @@ form{
 }
 form button{
    padding: 8px 20px;
-   font-size: 16px;
+   font-size: 14px;
    background-color:rgb(50, 50, 214);
    color: white;
 }
 form input{
    width: 450px;
-   height: 40px;
+   height: 35px;
    padding-left: 12px;
    outline: none;
    border: none;
    background-color: white;
    border: 0.1px solid rgb(195, 188, 188);
-   font-size: 16px;
+   font-size: 14px;
    z-index: 10;
 }
