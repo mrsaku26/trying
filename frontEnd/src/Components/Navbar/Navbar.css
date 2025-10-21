@@ -26,6 +26,7 @@
    font-size: 13px;
    font-weight: 520;
    cursor: pointer;
+   z-index: 10;
    
 }
 .login img{
